@@ -1,0 +1,30 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 30mm 45mm 30mm 45mm;
+}
+.gpa-course{
+   list-style: none;
+}
+.resume-name{
+   display: flex;
+   justify-content: center;
+}
+.student-info{
+   display: flex;
+   gap: 15px;
+   justify-content: center;
+}
+.box{
+   display: flex;
+   justify-content:space-between;
+}
+@media (max-width:30mm){
+   .resume{
+      flex-direction: column;
+      height: 100%;
+   }
+}
+
+
+
+
